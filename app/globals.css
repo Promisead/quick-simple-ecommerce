@@ -77,3 +77,10 @@ body {
 }
 
 
+/* Add near the end of app/globals.css */
+.uploadthing-override .bg-blue-400 { background-color: rgb(251 146 60) !important; } /* tailwind orange-400 */
+.uploadthing-override .bg-blue-600 { background-color: rgb(234 88 12) !important; } /* orange-600 */
+.uploadthing-override .bg-blue-600\/10 { background-color: rgba(234,88,12,0.1) !important; }
+.uploadthing-override .text-blue-600 { color: rgb(234 88 12) !important; }
+.uploadthing-override .after\:bg-blue-600:after { background-color: rgb(234 88 12) !important; }
+.uploadthing-override .focus-within\:ring-blue-600 { --tw-ring-color: rgb(234 88 12) !important; }

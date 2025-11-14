@@ -94,7 +94,7 @@ export default function EditProduct() {
     }
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-orange-900 to-black flex items-center justify-center p-4">
+        <div className="min-h-screen bg-white flex items-center justify-center p-4">
             <Card className="w-full max-w-lg bg-orange-50 text-black-100 shadow-lg shadow-orange-500/50">
                 <CardHeader>
                     <CardTitle className="text-2xl font-bold text-center text-black-300">Edit Product</CardTitle>
@@ -123,7 +123,7 @@ export default function EditProduct() {
                                 value={productData.description}
                                 onChange={handleInputChange}
                                 required
-                                className="bg-orange-900 border-orange-700 text-black-100 focus:ring-orange-500 focus:border-orange-500"
+                                className=" border-orange-700 text-black-100 focus:ring-orange-500 focus:border-orange-500"
                             />
                         </div>
 
@@ -138,7 +138,7 @@ export default function EditProduct() {
                                 required
                                 min="0"
                                 step="0.01"
-                                className="bg-orange-900 border-orange-700 text-black-100 focus:ring-orange-500 focus:border-orange-500"
+                                className=" border-orange-700 text-black-100 focus:ring-orange-500 focus:border-orange-500"
                             />
                         </div>
 
@@ -147,7 +147,7 @@ export default function EditProduct() {
                             <FileUpload onUpload={onUpload} />
                             {productData.imageUrl && (
                                 <>
-                                    <Alert variant="default" className="bg-orange-900 border-orange-500">
+                                    <Alert variant="default" className=" border-orange-500">
                                         <CheckCircle2 className="h-4 w-4 text-black-500" />
                                         <AlertDescription className="text-black-300">
                                             Image uploaded successfully
@@ -159,7 +159,7 @@ export default function EditProduct() {
                         </div>
 
                         {error && (
-                            <Alert variant="destructive" className="bg-red-900 border-red-700">
+                            <Alert variant="destructive" className=" border-red-700">
                                 <AlertCircle className="h-4 w-4" />
                                 <AlertDescription>{error}</AlertDescription>
                             </Alert>
