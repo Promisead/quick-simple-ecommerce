@@ -12,7 +12,7 @@ Designed for learning, production use, and long-term maintainability.
 
 ------------------------------------------------------------------------
 
-## 🖼️ Hero Preview
+## 🖼️ Preview
 
 ![Hero Preview](public/hero.png)
 
