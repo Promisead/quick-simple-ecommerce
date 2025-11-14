@@ -14,10 +14,10 @@ Designed for learning, production use, and long-term maintainability.
 
 ## 🖼️ Preview
 
-![Hero Preview](public/hero.png)
 
-> Replace this preview image later with your own screenshot for better
-> branding.
+| Storefront (Hero) | Admin Image Manager |
+|------------------|---------------------|
+| ![Hero Preview](./public/hero.png) | ![Admin Page](./public/admin.png) |
 
 ------------------------------------------------------------------------
 
@@ -202,6 +202,12 @@ Pull requests are welcome!
 
 ------------------------------------------------------------------------
 
-## 📜 License
+# 📜 License
 
-MIT License
+MIT --- free to use and modify.
+
+------------------------------------------------------------------------
+
+# 🙌 Author
+
+**Promise Duke**
